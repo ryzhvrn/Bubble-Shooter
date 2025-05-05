@@ -1,0 +1,377 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8752230932879617954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: AstronautHatProduct007
+  m_EditorClassIdentifier: 
+  id: 7
+  productName: Astronaut Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: 908fb3f4c254e9f42837b3d3ec9bcda5, type: 3}
+  prefabs:
+  - {fileID: 1448169160559869637, guid: f93cc5b7e48035b4eb843d40dec3db3a, type: 3}
+  hatOffset: {x: -0.003, y: -0.848, z: -0.349}
+  storePreviewScaleMult: 0.7
+--- !u!114 &-8189628493532123177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: CrownProduct010
+  m_EditorClassIdentifier: 
+  id: 10
+  productName: Crown Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: 73ed9a6dd23d45d4b9c2ebb68be22e98, type: 3}
+  prefabs:
+  - {fileID: 5640628643930638136, guid: ba07ddd33d2118b41821e08721d79a16, type: 3}
+  hatOffset: {x: -0.009, y: 0.1, z: -0.311}
+  storePreviewScaleMult: 1.15
+--- !u!114 &-7489270210170280063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: CapHatProduct006
+  m_EditorClassIdentifier: 
+  id: 6
+  productName: Cap Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 1
+  unlockedIcon: {fileID: 21300000, guid: e4a03920294cc244ea378f9b9692c58e, type: 3}
+  prefabs:
+  - {fileID: 7932907497049139691, guid: 850a6abfe2e02ad4188d30a00cd8225a, type: 3}
+  - {fileID: 1961747401126753475, guid: 3a38302847ec80b4db177a9e2c077ac0, type: 3}
+  - {fileID: 4572011228411840863, guid: 80abce53d73be1b49bf42faf14ebb65e, type: 3}
+  - {fileID: 8799033396482813813, guid: cfa88124afacfe348bc9cf3244103e7a, type: 3}
+  - {fileID: 2515672650697926985, guid: bb88a8a28ea2e8f4b92fc8c77aa028d3, type: 3}
+  - {fileID: 2515672650697926985, guid: bf7fde4e811e1464380e3dfc4ac5680a, type: 3}
+  hatOffset: {x: 0, y: 0, z: 0}
+  storePreviewScaleMult: 1.1
+--- !u!114 &-7482069098043285729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: WarriorHatProduct014
+  m_EditorClassIdentifier: 
+  id: 14
+  productName: Warrior Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: e0c196266627d0f408549ffc052b9235, type: 3}
+  prefabs:
+  - {fileID: 3481501265669705648, guid: 6b6a2f0e297841f43b929a78707f61a8, type: 3}
+  hatOffset: {x: -0.03, y: -0.87, z: -0.18}
+  storePreviewScaleMult: 0.7
+--- !u!114 &-3860068846770458030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: ChristmasHatProduct009
+  m_EditorClassIdentifier: 
+  id: 9
+  productName: Christmas Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: 91b7bbb9d29d22e4fb92cc3a2b78008e, type: 3}
+  prefabs:
+  - {fileID: 5421257110644811464, guid: eaecd4d655b1ca64482fe19b35ba49b6, type: 3}
+  hatOffset: {x: -0.01, y: 0.09, z: -0.205}
+  storePreviewScaleMult: 1
+--- !u!114 &-2527515375489381958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: SmileHatProduct013
+  m_EditorClassIdentifier: 
+  id: 13
+  productName: Smile Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: 6345488d79002b54e818d12728fd3d0b, type: 3}
+  prefabs:
+  - {fileID: 3232379495328285639, guid: 9fee5628813d0604f876d5c45488fc17, type: 3}
+  hatOffset: {x: -0.017, y: -0.925, z: -0.174}
+  storePreviewScaleMult: 0.8
+--- !u!114 &-1270504411112307240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: OrangeGunProduct004
+  m_EditorClassIdentifier: Assembly-CSharp::GunSkinProduct
+  id: 4
+  productName: Orange Gun
+  page: 0
+  type: 1
+  behaviourType: 0
+  isDefault: 0
+  preview: {fileID: 21300000, guid: d680a81ee75dd5f4297c7b62eda627b3, type: 3}
+  gunData: {fileID: 11400000, guid: 36c095367649b0f40ad761e99f74c3c9, type: 2}
+  storePreviewScaleMult: 3
+  storePreviewRotationY: 30
+--- !u!114 &-1211225388174468820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: CheeseHatProduct008
+  m_EditorClassIdentifier: 
+  id: 8
+  productName: Cheese Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: bd74b24b2447f53489fff5d235125f57, type: 3}
+  prefabs:
+  - {fileID: 6719065602764434243, guid: d9db6e4488852b840a75e368481d0f94, type: 3}
+  hatOffset: {x: 0.008, y: -0.051, z: -0.07}
+  storePreviewScaleMult: 0.9
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518e113bf588e7044b019c57102645fa, type: 3}
+  m_Name: Store Database
+  m_EditorClassIdentifier: 
+  products:
+  - {fileID: 2756310653733095111}
+  - {fileID: 4908911367365293809}
+  - {fileID: 4440834249435226883}
+  - {fileID: 5492143331876053453}
+  - {fileID: -1270504411112307240}
+  - {fileID: 1554044888466867993}
+  - {fileID: 630623766136574516}
+  - {fileID: -7489270210170280063}
+  - {fileID: -8752230932879617954}
+  - {fileID: -1211225388174468820}
+  - {fileID: -3860068846770458030}
+  - {fileID: -8189628493532123177}
+  - {fileID: 7284600183041345660}
+  - {fileID: -2527515375489381958}
+  - {fileID: -7482069098043285729}
+  gunSkinPrice: 100
+  hatSkinPrice: 50
+  coinsForAdsAmount: 100
+--- !u!114 &630623766136574516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: MaskHatProduct012
+  m_EditorClassIdentifier: 
+  id: 12
+  productName: Random Hat
+  page: 0
+  type: 0
+  behaviourType: 2
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: 7d38835c316a8c44d9c5c849d8f2e919, type: 3}
+  prefabs:
+  - {fileID: 108869301286883459, guid: 18a9bf6e39515ff439519f347e9d1d9e, type: 3}
+  hatOffset: {x: 0.04, y: -1.58, z: -0.26}
+  storePreviewScaleMult: 1
+--- !u!114 &1554044888466867993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: RedGunProduct005
+  m_EditorClassIdentifier: Assembly-CSharp::GunSkinProduct
+  id: 5
+  productName: Red Gun
+  page: 0
+  type: 1
+  behaviourType: 0
+  isDefault: 0
+  preview: {fileID: 21300000, guid: 7f6b45420d7cc3d46846e30ad396c8aa, type: 3}
+  gunData: {fileID: 11400000, guid: fe041367f2a6a5549896a4e5ba9e5031, type: 2}
+  storePreviewScaleMult: 3
+  storePreviewRotationY: 30
+--- !u!114 &2756310653733095111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: RandomGunProduct015
+  m_EditorClassIdentifier: 
+  id: 15
+  productName: Random Gun
+  page: 0
+  type: 1
+  behaviourType: 2
+  isDefault: 0
+  preview: {fileID: 21300000, guid: 7d38835c316a8c44d9c5c849d8f2e919, type: 3}
+  gunData: {fileID: 11400000, guid: b7e4e791d1dd96b4db8b7d4e113c7e89, type: 2}
+  storePreviewScaleMult: 1
+  storePreviewRotationY: 0
+--- !u!114 &4440834249435226883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: BlueGunProduct002
+  m_EditorClassIdentifier: Assembly-CSharp::GunSkinProduct
+  id: 2
+  productName: Blue Gun
+  page: 0
+  type: 1
+  behaviourType: 0
+  isDefault: 0
+  preview: {fileID: 21300000, guid: 017b82c1066b66c4c90483581729b3ad, type: 3}
+  gunData: {fileID: 11400000, guid: 58c0b0ea27ee1e14b8276f925271beaa, type: 2}
+  storePreviewScaleMult: 3
+  storePreviewRotationY: 30
+--- !u!114 &4908911367365293809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: YellowGunProduct001
+  m_EditorClassIdentifier: Assembly-CSharp::GunSkinProduct
+  id: 1
+  productName: Yellow Gun
+  page: 0
+  type: 1
+  behaviourType: 0
+  isDefault: 1
+  preview: {fileID: 21300000, guid: bf1d6cc79c65bd947b9279674560fdfb, type: 3}
+  gunData: {fileID: 11400000, guid: 8bf8b6c6de251a546a680c3e385fc993, type: 2}
+  storePreviewScaleMult: 3
+  storePreviewRotationY: 30
+--- !u!114 &5492143331876053453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: GreenGunProduct003
+  m_EditorClassIdentifier: Assembly-CSharp::GunSkinProduct
+  id: 3
+  productName: Green Gun
+  page: 0
+  type: 1
+  behaviourType: 0
+  isDefault: 0
+  preview: {fileID: 21300000, guid: af19dc0cdd121c1439ff498ffba63111, type: 3}
+  gunData: {fileID: 11400000, guid: c157e43d701fad148a32cfc7cd8733a0, type: 2}
+  storePreviewScaleMult: 3
+  storePreviewRotationY: 30
+--- !u!114 &7284600183041345660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c93656d24b8647ac686545054a3b7, type: 3}
+  m_Name: HeadphonesProduct011
+  m_EditorClassIdentifier: 
+  id: 11
+  productName: Headphones Hat
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  unlockedIcon: {fileID: 21300000, guid: f6f5a5674b702a84ca229be0beaa6a5a, type: 3}
+  prefabs:
+  - {fileID: 3400372631057038221, guid: 76e342d17db4c5d4192c853d7d7e9c75, type: 3}
+  hatOffset: {x: 0.01, y: -0.94, z: -0.34}
+  storePreviewScaleMult: 0.85

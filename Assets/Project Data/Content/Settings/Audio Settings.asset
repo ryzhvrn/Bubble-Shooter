@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8634c5cf5896bb84ca6474552cf85648, type: 3}
+  m_Name: Audio Settings
+  m_EditorClassIdentifier: 
+  music:
+    gameMusic: {fileID: 8300000, guid: cc63129ce9f9c264584162396c2b8f37, type: 3}
+  sounds:
+    buttonSound: {fileID: 8300000, guid: 43778771ca132fe44baa768ab4be8bc2, type: 3}
+    shoot: {fileID: 8300000, guid: 4000b90faa3462643a9003f17b6ca016, type: 3}
+    win: {fileID: 8300000, guid: 9afac0240f5950d45b465ccc00b228af, type: 3}
+    lose: {fileID: 8300000, guid: 4fd7eec415394804ab71cfb680acae91, type: 3}
+    complete: {fileID: 8300000, guid: 2b04bdd84f5d8b540b91612dc1fc2b5e, type: 3}
+    explostion: {fileID: 8300000, guid: 863845b9de46bcc40bc7cd733a1bb6b8, type: 3}
+    wallButton: {fileID: 8300000, guid: 22602fc09a665ad49804bc1089bc4177, type: 3}
+    scream1: {fileID: 8300000, guid: 34760e80594388f4db09eb475174525c, type: 3}
+    scream2: {fileID: 8300000, guid: ff1023f1ba93fa8489c70690fd0913dc, type: 3}
+  vibrations:
+    shortVibration: 20
+    longVibration: 50

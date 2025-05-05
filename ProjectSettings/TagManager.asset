@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Gun
   layers:
   - Default
   - TransparentFX
@@ -11,15 +13,15 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Gun
+  - Bullet
+  - Interactable
+  - Environment
+  - Rigidbody
+  - Foam
+  - Enemy
+  - Floor
+  - Store Preview
   - 
   - 
   - 
