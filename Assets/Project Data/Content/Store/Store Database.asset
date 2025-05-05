@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AstronautHatProduct007
   m_EditorClassIdentifier: 
   id: 7
-  productName: Astronaut Hat
+  productName: Pig
   page: 0
   type: 0
   behaviourType: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: CapHatProduct006
   m_EditorClassIdentifier: 
   id: 6
-  productName: Cap Hat
+  productName: Cap
   page: 0
   type: 0
   behaviourType: 0
@@ -110,12 +110,12 @@ MonoBehaviour:
   m_Name: ChristmasHatProduct009
   m_EditorClassIdentifier: 
   id: 9
-  productName: Christmas Hat
+  productName: Tripi
   page: 0
   type: 0
   behaviourType: 0
   isDefault: 0
-  unlockedIcon: {fileID: 21300000, guid: 91b7bbb9d29d22e4fb92cc3a2b78008e, type: 3}
+  unlockedIcon: {fileID: 21300000, guid: 9718cc05ca337294d986e0673e392065, type: 3}
   prefabs:
   - {fileID: 5421257110644811464, guid: eaecd4d655b1ca64482fe19b35ba49b6, type: 3}
   hatOffset: {x: -0.01, y: 0.09, z: -0.205}
