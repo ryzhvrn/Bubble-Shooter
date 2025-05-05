@@ -18,5 +18,5 @@ MonoBehaviour:
     type: 3}
   bulletSplashPrefab: {fileID: 3722578076040067249, guid: aa2cec9eef2ebcc46a06e1389c99b179,
     type: 3}
-  bulletSpeed: 700
+  bulletSpeed: 500
   damage: 1

@@ -183,7 +183,7 @@ MonoBehaviour:
   type: 0
   behaviourType: 0
   isDefault: 0
-  unlockedIcon: {fileID: 21300000, guid: bd74b24b2447f53489fff5d235125f57, type: 3}
+  unlockedIcon: {fileID: 21300000, guid: cb36224b94e96e24b87b65a6d871d300, type: 3}
   prefabs:
   - {fileID: 6719065602764434243, guid: d9db6e4488852b840a75e368481d0f94, type: 3}
   hatOffset: {x: 0.008, y: -0.051, z: -0.07}
@@ -216,9 +216,9 @@ MonoBehaviour:
   - {fileID: 7284600183041345660}
   - {fileID: -2527515375489381958}
   - {fileID: -7482069098043285729}
-  gunSkinPrice: 100
-  hatSkinPrice: 50
-  coinsForAdsAmount: 100
+  gunSkinPrice: 500
+  hatSkinPrice: 1000
+  coinsForAdsAmount: 200
 --- !u!114 &630623766136574516
 MonoBehaviour:
   m_ObjectHideFlags: 0
