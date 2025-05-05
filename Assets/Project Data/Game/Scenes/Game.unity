@@ -958,6 +958,21 @@ PrefabInstance:
       propertyPath: m_MatchWidthOrHeight
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7256223718026318422, guid: 8227603d72bad814faca14f883b407a8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256223718026318422, guid: 8227603d72bad814faca14f883b407a8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256223718026318422, guid: 8227603d72bad814faca14f883b407a8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 8234288248518012364, guid: 8227603d72bad814faca14f883b407a8,
         type: 3}
       propertyPath: m_RootOrder

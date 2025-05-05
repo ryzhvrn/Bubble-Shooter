@@ -36,12 +36,12 @@ MonoBehaviour:
   m_Name: CrownProduct010
   m_EditorClassIdentifier: 
   id: 10
-  productName: Crown Hat
+  productName: Crocodilo melon
   page: 0
   type: 0
   behaviourType: 0
   isDefault: 0
-  unlockedIcon: {fileID: 21300000, guid: 73ed9a6dd23d45d4b9c2ebb68be22e98, type: 3}
+  unlockedIcon: {fileID: 21300000, guid: 8af56f55b654b4e42bf5cacd60735a82, type: 3}
   prefabs:
   - {fileID: 5640628643930638136, guid: ba07ddd33d2118b41821e08721d79a16, type: 3}
   hatOffset: {x: -0.009, y: 0.1, z: -0.311}
