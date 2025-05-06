@@ -216,9 +216,9 @@ MonoBehaviour:
   - {fileID: 7284600183041345660}
   - {fileID: -2527515375489381958}
   - {fileID: -7482069098043285729}
-  gunSkinPrice: 500
-  hatSkinPrice: 1000
-  coinsForAdsAmount: 200
+  gunSkinPrice: 1000
+  hatSkinPrice: 2000
+  coinsForAdsAmount: 300
 --- !u!114 &630623766136574516
 MonoBehaviour:
   m_ObjectHideFlags: 0

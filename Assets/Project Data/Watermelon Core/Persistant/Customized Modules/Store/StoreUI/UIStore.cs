@@ -14,7 +14,7 @@ namespace Watermelon
         public readonly string STORE_ITEM_POOL_NAME = "StoreItem";
         public readonly string PAGES_POOL_NAME = "StorePage";
         public readonly string PAGE_DOT_POOL_NAME = "PageDot";
-        private readonly string GET_COINS_FOR_AD_LABEL = "GET\n";
+        private readonly string GET_COINS_FOR_AD_LABEL = "ПОЛУЧИТЬ\n";
         private readonly float PANEL_BOTTOM_OFFSET_Y = -2000f;
 
         [Header("Settings")]

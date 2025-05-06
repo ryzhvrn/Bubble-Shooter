@@ -6,7 +6,7 @@ namespace Watermelon.BubbleShooter
 {
     public class UIGame : UIPage
     {
-        private readonly string[] CONGRATULATION_TEXTS = new string[] { "WELL DONE", "GOOD!", "GOOD JOB", "NICE" };
+        private readonly string[] CONGRATULATION_TEXTS = new string[] { "ОТЛИЧНО!", "НЕПЛОХО!", "А ТЫ КРУТОЙ", "ЖЕСТКО!" };
 
         [Header("Progressbar")]
         [SerializeField] RectTransform progressbarRectTrasform;
@@ -59,7 +59,7 @@ namespace Watermelon.BubbleShooter
             if (isPageDisplayed)
                 return;
 
-            levelNumberText.text = "LEVEL " + GameController.LevelNumber;
+            levelNumberText.text = "УРОВЕНЬ " + GameController.LevelNumber;
 
             progressbarRectTrasform.anchoredPosition = new Vector2(0, 300);
             progressbarRectTrasform.DOAnchoredPosition(progressbarDefaultPosition, 0.6f).SetEasing(Ease.Type.BackOut);
@@ -73,7 +73,7 @@ namespace Watermelon.BubbleShooter
             if (isPageDisplayed)
                 return;
 
-            levelNumberText.text = "LEVEL " + GameController.LevelNumber;
+            levelNumberText.text = "УРОВЕНЬ " + GameController.LevelNumber;
             progressbarRectTrasform.anchoredPosition = progressbarDefaultPosition;
 
             isPageDisplayed = true;
