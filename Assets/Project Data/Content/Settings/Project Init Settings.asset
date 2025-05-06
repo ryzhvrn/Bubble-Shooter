@@ -79,7 +79,7 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: f0858c0f24b3ff5489e1fefb94c661e5, type: 2}
   dummyCanvasPrefab: {fileID: 985655532585203946, guid: a7af08efc5cd16c4db955b7f65f00dfc,
     type: 3}
-  loadAdOnStart: 1
+  loadAdOnStart: 0
 --- !u!114 &3702196398480367517
 MonoBehaviour:
   m_ObjectHideFlags: 0
