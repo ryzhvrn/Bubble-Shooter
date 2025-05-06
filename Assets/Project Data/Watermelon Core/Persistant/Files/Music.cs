@@ -6,5 +6,8 @@ namespace Watermelon
 	public class Music
 	{
 		public AudioClip gameMusic;
+		public AudioClip music_main2;
+		public AudioClip exampleMusic;
+		public AudioClip mainMusic4;
 	}
 }

@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   music:
     gameMusic: {fileID: 8300000, guid: cc63129ce9f9c264584162396c2b8f37, type: 3}
+    music_main2: {fileID: 8300000, guid: 95a1bca7df2bb204a80f145d460065bb, type: 3}
+    exampleMusic: {fileID: 8300000, guid: 719b4a4f1f3887e45a1d99f291721c16, type: 3}
+    mainMusic4: {fileID: 8300000, guid: 7128c13d95e6db04fab056b0cb71e2b1, type: 3}
   sounds:
     buttonSound: {fileID: 8300000, guid: 43778771ca132fe44baa768ab4be8bc2, type: 3}
     shoot: {fileID: 8300000, guid: 4000b90faa3462643a9003f17b6ca016, type: 3}
