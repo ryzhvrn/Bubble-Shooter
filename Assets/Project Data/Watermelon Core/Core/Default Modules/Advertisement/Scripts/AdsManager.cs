@@ -270,7 +270,7 @@ namespace Watermelon
                 Debug.Log("[AdsManager]: First ads have loaded!");
         }
 
-        private static bool LoadFirstAds()
+        /*private static bool LoadFirstAds()
         {
             if (isFirstAdLoaded)
                 return true;
@@ -307,7 +307,7 @@ namespace Watermelon
             }
 
             return false;
-        }
+        }*/
 
         public static void CallEventInMainThread(SimpleCallback callback)
         {

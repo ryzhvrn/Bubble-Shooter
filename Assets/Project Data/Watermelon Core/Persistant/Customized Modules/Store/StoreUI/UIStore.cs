@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Watermelon.BubbleShooter;
+using YG;
 
 namespace Watermelon
 {
@@ -472,7 +473,7 @@ namespace Watermelon
         public void GetCoinsForAdsButton()
         {
             AudioController.PlaySound(AudioController.Sounds.buttonSound);
-            AdsManager.ShowRewardBasedVideo(AdsManager.Settings.RewardedVideoType, (bool haveReward) =>
+            /*AdsManager.ShowRewardBasedVideo(AdsManager.Settings.RewardedVideoType, (bool haveReward) =>
              {
                  if (haveReward)
                  {
@@ -481,7 +482,17 @@ namespace Watermelon
                      int productPrice = StoreController.Database.GetProductPrice(CurrentProductType);
                      UpdateUnlockRandomButton(isEnoughtMoney: Coins >= productPrice, isActive: closedSkinsOnCurrentPageIndexes.Count > 0);
                  }
-             });
+             });*/
+
+            string rewardID = "StoreReward";
+
+            YG2.RewardedAdvShow(rewardID, () =>
+            {
+                Coins += StoreController.Database.CoinsForAdsAmount;
+
+                int productPrice = StoreController.Database.GetProductPrice(CurrentProductType);
+                UpdateUnlockRandomButton(isEnoughtMoney: Coins >= productPrice, isActive: closedSkinsOnCurrentPageIndexes.Count > 0);
+            });
         }
 
         public void CloseStoreButton()

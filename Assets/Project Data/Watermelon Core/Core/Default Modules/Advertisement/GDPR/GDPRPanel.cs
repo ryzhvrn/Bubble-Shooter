@@ -17,14 +17,14 @@ namespace Watermelon
             instance = this;
 
 
-            if (AdsManager.Settings.IsGDPREnabled)
+            /*if (AdsManager.Settings.IsGDPREnabled)
             {
                 panelObject.SetActive(!AdsManager.IsGDPRStateExist());
             }
             else
-            {
+            {*/
                 panelObject.SetActive(false);
-            }
+            //}
         }
 
         public void OpenPrivacyLinkButton()
