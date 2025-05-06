@@ -365,12 +365,12 @@ MonoBehaviour:
   m_Name: HeadphonesProduct011
   m_EditorClassIdentifier: 
   id: 11
-  productName: Headphones Hat
+  productName: Golubiro
   page: 0
   type: 0
   behaviourType: 0
   isDefault: 0
-  unlockedIcon: {fileID: 21300000, guid: f6f5a5674b702a84ca229be0beaa6a5a, type: 3}
+  unlockedIcon: {fileID: 21300000, guid: 4d399fa6843c462439142f5ab53a32c5, type: 3}
   prefabs:
   - {fileID: 3400372631057038221, guid: 76e342d17db4c5d4192c853d7d7e9c75, type: 3}
   hatOffset: {x: 0.01, y: -0.94, z: -0.34}
