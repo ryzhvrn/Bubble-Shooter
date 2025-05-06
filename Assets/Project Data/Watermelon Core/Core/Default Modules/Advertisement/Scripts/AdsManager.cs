@@ -248,11 +248,11 @@ namespace Watermelon
 
         public static void TryToLoadFirstAds()
         {
-            if(loadingCoroutine == null)
-                loadingCoroutine = Tween.InvokeCoroutine(TryToLoadAdsCoroutine());
+            /*if(loadingCoroutine == null)
+                loadingCoroutine = Tween.InvokeCoroutine(TryToLoadAdsCoroutine());*/
         }
 
-        private static IEnumerator TryToLoadAdsCoroutine()
+        /*private static IEnumerator TryToLoadAdsCoroutine()
         {
             yield return new WaitForSeconds(1.0f);
 
@@ -268,7 +268,7 @@ namespace Watermelon
 
             if (settings.SystemLogs)
                 Debug.Log("[AdsManager]: First ads have loaded!");
-        }
+        }*/
 
         /*private static bool LoadFirstAds()
         {
