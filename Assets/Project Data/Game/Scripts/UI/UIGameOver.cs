@@ -33,7 +33,8 @@ namespace Watermelon
         private TweenCase skipPingPongCase;
         private Shadow skipButtonShadow;
 
-        private bool IsAdAndRewardedVideoEnabled => (AdsManager.IsForcedAdEnabled() && AdsManager.IsRewardBasedVideoLoaded());
+        //private bool IsAdAndRewardedVideoEnabled => (AdsManager.IsForcedAdEnabled() && AdsManager.IsRewardBasedVideoLoaded());
+        private bool IsAdAndRewardedVideoEnabled = true;
         private bool closePagePressed;
 
         public override void Init()

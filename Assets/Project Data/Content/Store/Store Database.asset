@@ -64,14 +64,9 @@ MonoBehaviour:
   type: 0
   behaviourType: 0
   isDefault: 1
-  unlockedIcon: {fileID: 21300000, guid: e4a03920294cc244ea378f9b9692c58e, type: 3}
+  unlockedIcon: {fileID: 21300000, guid: e3e50a1eef0a51d4eadb216e0a77bd12, type: 3}
   prefabs:
   - {fileID: 7932907497049139691, guid: 850a6abfe2e02ad4188d30a00cd8225a, type: 3}
-  - {fileID: 1961747401126753475, guid: 3a38302847ec80b4db177a9e2c077ac0, type: 3}
-  - {fileID: 4572011228411840863, guid: 80abce53d73be1b49bf42faf14ebb65e, type: 3}
-  - {fileID: 8799033396482813813, guid: cfa88124afacfe348bc9cf3244103e7a, type: 3}
-  - {fileID: 2515672650697926985, guid: bb88a8a28ea2e8f4b92fc8c77aa028d3, type: 3}
-  - {fileID: 2515672650697926985, guid: bf7fde4e811e1464380e3dfc4ac5680a, type: 3}
   hatOffset: {x: 0, y: 0, z: 0}
   storePreviewScaleMult: 1.1
 --- !u!114 &-7482069098043285729

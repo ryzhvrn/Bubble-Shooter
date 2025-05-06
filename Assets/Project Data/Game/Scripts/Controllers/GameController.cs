@@ -1,5 +1,6 @@
 using UnityEngine;
 using Watermelon;
+using YG;
 
 namespace Watermelon.BubbleShooter
 {
@@ -112,12 +113,21 @@ namespace Watermelon.BubbleShooter
         {
             Tween.RemoveAll();
             UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
-            AdsManager.ShowInterstitial(delegate { });
+            YG2.InterstitialAdvShow();
         }
 
         public static void OnSkipLevelPressed()
         {
-            AdsManager.ShowRewardBasedVideo((finished) =>
+            string rewardID = "SkipLevel";
+
+            YG2.RewardedAdvShow(rewardID, () =>
+            {
+                LevelNumber++;
+
+                OnGameOverPageClosed();
+            });
+
+            /*AdsManager.ShowRewardBasedVideo((finished) =>
             {
                 if (finished)
                 {
@@ -129,7 +139,7 @@ namespace Watermelon.BubbleShooter
                 {
                     OnGameOverPageClosed();
                 }
-            });
+            });*/
         }
 
         public static void OnGameOverPageClosed()

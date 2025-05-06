@@ -4,6 +4,7 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using Watermelon.BubbleShooter;
+using YG;
 
 namespace Watermelon
 {
@@ -43,7 +44,8 @@ namespace Watermelon
 
         private TweenCase getX3PingPongCase;
         private Shadow getX3ButtonShadow;
-        private bool IsAdAndRewardedVideoEnabled => (AdsManager.IsForcedAdEnabled() && AdsManager.IsRewardBasedVideoLoaded());
+        //private bool IsAdAndRewardedVideoEnabled => (AdsManager.IsForcedAdEnabled() && AdsManager.IsRewardBasedVideoLoaded());
+        private bool IsAdAndRewardedVideoEnabled = true;
         private bool closePagePressed;
 
         public override void Init()
@@ -237,7 +239,29 @@ namespace Watermelon
             closePagePressed = true;
 
             AudioController.PlaySound(AudioController.Sounds.buttonSound);
-            AdsManager.ShowRewardBasedVideo((finished) =>
+
+            string rewardID = "x3";
+
+            YG2.RewardedAdvShow(rewardID, () =>
+            {
+                ShowRewardLabel(LevelController.LevelCompleteReward * 3, onComplted: () =>
+                {
+                    CurrencyCloudController.SpawnCurrency("Money".GetHashCode(), rewardAmountsText.rectTransform, moneyScalableObject.RectTransform, 15, "", () =>
+                    {
+                        GameController.MoneyAmount += LevelController.LevelCompleteReward * 3;
+                        UpdateMoneyLabel();
+
+                        rewardLabel.RectTransform.DOPushScale(Vector3.one * 1.1f, Vector3.one, 0.2f, 0.2f).OnComplete(delegate
+                        {
+                            GameController.OnCompletePageClosed();
+                        });
+                    });
+                });
+            });
+
+
+
+            /*AdsManager.ShowRewardBasedVideo((finished) =>
             {
                 if (finished)
                 {
@@ -259,7 +283,7 @@ namespace Watermelon
                 {
                     GameController.OnCompletePageClosed();
                 }
-            });
+            });*/
         }
 
         public void ContinueButton()
