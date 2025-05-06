@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Watermelon.BubbleShooter;
+using YG;
 
 namespace Watermelon
 {
@@ -247,6 +248,7 @@ namespace Watermelon
             {
                 storeButtonRect.SetInteractable(true);
                 UIController.GetPage<UIStore>().Show();
+                YG2.InterstitialAdvShow();
             });
 
             AudioController.PlaySound(AudioController.Sounds.buttonSound);
