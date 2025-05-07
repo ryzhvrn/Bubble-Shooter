@@ -2264,7 +2264,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.7
+    m_LineSpacing: 0.98
   m_Text: "\u0422\u0415\u0411\u042F \u0423\u0411\u0418\u041B\u0418"
 --- !u!222 &219392841366651689
 CanvasRenderer:
