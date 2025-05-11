@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   behaviourType: 0
   isDefault: 0
-  unlockedIcon: {fileID: 21300000, guid: 19942b5c5c4542c48be29e1a7f4f1708, type: 3}
+  unlockedIcon: {fileID: 21300000, guid: 8a7eb12b1e07ca842bd5149764a2072e, type: 3}
   prefabs:
   - {fileID: 1448169160559869637, guid: f93cc5b7e48035b4eb843d40dec3db3a, type: 3}
   hatOffset: {x: -0.003, y: -0.848, z: -0.349}

@@ -295,6 +295,7 @@ namespace Watermelon
 
             AudioController.PlaySound(AudioController.Sounds.buttonSound);
             GameController.OnCompletePageClosed();
+            YG2.InterstitialAdvShow();
         }
 
         #endregion

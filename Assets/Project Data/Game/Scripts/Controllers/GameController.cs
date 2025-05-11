@@ -113,7 +113,7 @@ namespace Watermelon.BubbleShooter
         {
             Tween.RemoveAll();
             UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
-            YG2.InterstitialAdvShow();
+            //YG2.InterstitialAdvShow();
         }
 
         public static void OnSkipLevelPressed()
